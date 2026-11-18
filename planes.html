@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Planes Telcel Ultra | Celular Express</title>
+<meta name="description" content="Planes Telcel Ultra con Celular Express, distribuidor autorizado Telcel. Tramita por WhatsApp, en línea o por llamada.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Nunito+Sans:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--blue:#002B8C;--blue2:#0B2A8A;--navy:#0D1B4C;--ink:#1E2433;--muted:#5B6275;--green:#2ECC40;--green2:#1DB954;--mid:#1A5BE0;--orange:#FF8A00;--electric:#0033FF;--soft:#F5F6FA;--line:#DADFE8}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:80px}
+body{font-family:"Nunito Sans",system-ui,sans-serif;color:var(--ink);background:#fff;-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+button{font:inherit;cursor:pointer;border:0;background:none}
+.wrap{max-width:1140px;margin:0 auto;padding:0 20px}
+h2{font-family:Outfit,sans-serif;font-weight:600;font-size:clamp(30px,4vw,40px);text-align:center;color:var(--ink);letter-spacing:-.01em}
+section{padding:56px 0}
+
+/* header */
+header{position:sticky;top:0;z-index:50;background:linear-gradient(90deg,var(--blue2),var(--blue));height:76px}
+header .wrap{height:100%;display:flex;align-items:center;justify-content:space-between}
+header .logo img{height:34px}
+header nav{display:flex;gap:56px}
+header nav a{color:#fff;font-family:Outfit,sans-serif;font-size:14.5px;font-weight:400}
+header nav a:hover{text-decoration:underline}
+.burger{display:none;color:#fff}
+.mnav{display:none}
+
+/* hero */
+.hero{padding:0}
+.hero .wrap{padding:0 20px}
+.hero img{width:100%;height:auto;aspect-ratio:1120/608;object-fit:cover;background:#1b3fb7}
+
+/* marquee */
+.marquee{overflow:hidden;padding:42px 0;background:#fff}
+.track{display:flex;gap:80px;width:max-content;animation:scroll 28s linear infinite;align-items:center}
+.track img{height:44px;width:auto}
+@keyframes scroll{to{transform:translateX(-50%)}}
+
+/* planes */
+.sub{text-align:center;font-family:Outfit,sans-serif;font-size:14px;color:var(--ink);margin-top:4px}
+.pgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:56px;max-width:1000px;margin:60px auto 0}
+.pcol{display:flex;flex-direction:column;align-items:center}
+.pcol h3{font-family:Outfit,sans-serif;font-weight:600;font-size:21px;color:var(--mid);margin-bottom:22px}
+.pcol img{width:100%;max-width:290px}
+.pbtn{display:flex;align-items:center;justify-content:center;text-align:center;width:100%;max-width:290px;color:#fff;font-family:Outfit,sans-serif;font-weight:500;letter-spacing:.12em;font-size:15px;text-transform:uppercase;border-radius:3px;line-height:1.3;transition:filter .2s,transform .2s;margin-top:20px}
+.pbtn:hover{filter:brightness(1.07);transform:translateY(-1px)}
+.pbtn.wa{background:var(--green);min-height:128px;padding:0 30px;margin-top:30px}
+.pbtn.on{background:var(--mid);min-height:66px}
+.pbtn.call{background:var(--orange);min-height:128px;padding:0 30px}
+
+/* beneficios */
+.bgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:40px}
+.bcard{background:#fff;border-radius:18px;box-shadow:0 2px 14px rgba(0,0,0,.08);padding:34px 30px 24px}
+.bcard h3{font-family:Outfit,sans-serif;font-weight:500;font-size:20px;margin-bottom:22px}
+.bcard p{font-size:14.5px;line-height:2.1;color:var(--muted);min-height:66px}
+.bcard .ico{height:34px;width:auto;margin:6px 0 10px}
+.bcard hr{border:0;border-top:1px solid var(--line);margin:4px 0 14px}
+.bcard a{font-family:Outfit,sans-serif;font-size:14px;color:var(--ink)}
+.bcard a:hover{text-decoration:underline}
+
+/* form */
+.fcard{max-width:650px;margin:30px auto 0;background:#fff;box-shadow:0 2px 14px rgba(0,0,0,.1);padding:40px 42px 30px}
+.fcard .price{width:100%;margin-bottom:12px;border-bottom:1px solid var(--line);padding-bottom:6px}
+.fcard h3{font-family:Inter,sans-serif;font-weight:500;font-size:30px;margin:20px 0 22px;color:#111}
+.fcard h4{font-family:Inter,sans-serif;font-weight:500;font-size:22px;margin:30px 0 18px;color:#111}
+.fl{margin-bottom:22px;font-family:Inter,sans-serif}
+.fl>label{display:block;font-size:13.5px;color:#222;margin-bottom:8px;font-weight:500}
+.fl input[type=text],.fl input[type=tel],.fl input[type=email],.fl select{width:100%;height:42px;border:1px solid #c9cdd4;border-radius:4px;padding:0 12px;font:inherit;font-size:14px;color:#222;background:#fff}
+.fl select{appearance:none;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%23777'/%3E%3C/svg%3E") no-repeat right 14px center #fff;padding-right:34px}
+.fl select:invalid{color:#888}
+.fl input:focus,.fl select:focus{outline:none;border-color:var(--mid);box-shadow:0 0 0 3px rgba(26,91,224,.15)}
+.fl .help{font-size:12px;color:#444;margin-top:8px}
+.chk{display:flex;align-items:center;gap:10px;font-size:14px;color:#222;margin-bottom:8px}
+.chk input{width:15px;height:15px}
+.drop{border:1.5px dashed #c9cdd4;border-radius:6px;padding:26px 16px;text-align:center;color:#666;font-size:13.5px;cursor:pointer;position:relative;background:#fafbfd}
+.drop input{position:absolute;inset:0;opacity:0;cursor:pointer}
+.drop b{color:var(--mid);display:block;margin-bottom:4px;font-weight:600}
+.drop small{display:block;margin-top:6px;font-size:12px}
+.drop .files{margin-top:8px;color:#222;font-size:12.5px}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.row2 input{height:42px}
+.fl.bad input,.fl.bad select,.fl.bad .drop{border-color:#d93025}
+.fl .err{display:none;color:#d93025;font-size:12px;margin-top:6px}
+.fl.bad .err{display:block}
+.submit{width:100%;height:46px;background:var(--green2);color:#fff;border-radius:4px;font-family:Inter,sans-serif;font-weight:500;font-size:14px;margin-top:10px}
+.submit:hover{filter:brightness(1.05)}
+.ok{display:none;text-align:center;padding:30px 10px;font-family:Inter,sans-serif}
+.ok h4{margin:0 0 10px}
+
+/* faq */
+.faqs{background:var(--soft)}
+.faq{max-width:780px;margin:30px auto 0;display:grid;gap:8px}
+.faq details{background:#fff;border:1px solid #cfd6e4;border-radius:6px}
+.faq summary{list-style:none;cursor:pointer;padding:12px 40px 12px 14px;position:relative;font-family:Inter,sans-serif;font-weight:600;font-size:15px;color:#2a3352}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"";position:absolute;right:16px;top:50%;margin-top:-2px;border:4px solid transparent;border-top:5px solid #333;transition:transform .2s;transform-origin:50% 25%}
+.faq details[open] summary::after{transform:rotate(180deg)}
+.faq .a{padding:0 14px 16px;font-size:14.5px;line-height:1.6;color:#3d4459}
+.cta{text-align:center;margin-top:40px}
+.cta a{display:inline-block;background:var(--electric);color:#fff;font-family:Outfit,sans-serif;letter-spacing:.1em;font-size:14px;padding:16px 36px;border-radius:2px}
+
+/* footer */
+footer{background:linear-gradient(90deg,var(--blue2),var(--blue));color:#fff;padding:44px 0 50px;margin-top:100px}
+.fg{display:grid;grid-template-columns:1.5fr .7fr 1fr;gap:40px;align-items:start}
+.fg .brand img.main{height:42px;margin-bottom:22px}
+.fg .brand img.cx{height:40px;margin-bottom:20px}
+.fg .brand p{font-family:Outfit,sans-serif;font-size:13px;line-height:1.5;text-align:center;max-width:420px;margin-bottom:14px}
+.fg .brand img.da{height:30px}
+.fg h4{font-family:Outfit,sans-serif;font-weight:500;font-size:22px;margin:12px 0 18px}
+.fg ul{list-style:none;display:grid;gap:14px}
+.fg li,.fg li a{font-family:Outfit,sans-serif;font-size:13px}
+.fg li a:hover{text-decoration:underline}
+
+/* popup + float */
+.pop{position:fixed;inset:0;z-index:100;background:rgba(0,0,0,.55);display:none;align-items:center;justify-content:center;padding:20px}
+.pop.open{display:flex}
+.pbox{position:relative;background:#fff;width:100%;max-width:430px;padding:22px 22px 26px;text-align:center;box-shadow:0 20px 60px rgba(0,0,0,.35)}
+.pbox .x{position:absolute;top:-11px;right:-11px;width:26px;height:26px;border-radius:50%;background:#222;color:#fff;border:2px solid #fff;font-size:13px;line-height:22px}
+.banner{border-radius:10px;overflow:hidden;background:radial-gradient(120% 120% at 80% 30%,#2a8bff 0%,#0b4fd6 40%,#062a8f 100%);color:#fff;text-align:left;padding:26px 22px;position:relative;min-height:220px}
+.banner::before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(90deg,rgba(255,255,255,.06) 0 1px,transparent 1px 34px),repeating-linear-gradient(0deg,rgba(255,255,255,.06) 0 1px,transparent 1px 34px)}
+.banner h3{position:relative;font-family:Outfit,sans-serif;font-weight:700;font-size:28px;line-height:1.1;max-width:58%}
+.banner .pill{position:relative;display:inline-flex;align-items:center;gap:8px;background:#fff;color:#0b2a8a;border-radius:30px;padding:6px 14px 6px 8px;margin-top:10px;font-family:Outfit,sans-serif;font-weight:700;font-size:22px}
+.banner .pill svg{width:28px;height:28px}
+.banner .phone{position:absolute;right:18px;bottom:16px;width:80px;height:150px;border-radius:14px;background:#fff;border:4px solid #111;box-shadow:0 10px 30px rgba(0,0,0,.35);padding:10px 6px;display:grid;gap:6px;align-content:start}
+.banner .phone i{display:block;height:10px;border-radius:5px;background:#dcf8c6}.banner .phone i:nth-child(2n){background:#eef1f6;width:80%}
+.pbox h4{font-family:Outfit,sans-serif;font-weight:700;font-size:26px;color:#0b2a6e;margin:18px 0 4px}
+.pbox p{font-size:14px;color:#333;margin-bottom:18px}
+.pbox .go{display:flex;align-items:center;justify-content:center;gap:8px;background:var(--green);color:#fff;height:50px;border-radius:3px;font-family:Outfit,sans-serif;font-size:15px}
+.waf{position:fixed;right:20px;bottom:20px;z-index:60;width:58px;height:58px;border-radius:50%;background:#25D366;display:flex;align-items:center;justify-content:center;box-shadow:0 8px 24px rgba(0,0,0,.25)}
+.waf svg{width:32px;height:32px}
+
+@media (max-width:900px){
+  header nav{display:none}.burger{display:block}
+  .mnav.open{display:grid;position:fixed;top:76px;left:0;right:0;z-index:49;background:var(--blue);padding:10px 20px 20px}
+  .mnav a{color:#fff;padding:12px 0;border-bottom:1px solid rgba(255,255,255,.15);font-family:Outfit,sans-serif}
+  .pgrid,.bgrid{grid-template-columns:1fr;gap:44px}
+  .bgrid{gap:16px}
+  .pbtn.wa,.pbtn.call{min-height:84px}
+  .fg{grid-template-columns:1fr}
+  .fcard{padding:26px 18px}
+  .row2{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <a class="logo" href="#top"><img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/rv3G4e27lyqoptqQIXZr/media/699df30d31e22854572f29a0.png" alt="Celular Express / Telcel"></a>
+    <nav><a href="#tramite">¡Contrata!</a><a href="#planes">Planes</a><a href="#beneficios">Beneficios</a><a href="#faq">Preguntas Frecuentes</a></nav>
+    <button class="burger" id="burger" aria-label="Menú"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+  </div>
+</header>
+<div class="mnav" id="mnav"><a href="#tramite">¡Contrata!</a><a href="#planes">Planes</a><a href="#beneficios">Beneficios</a><a href="#faq">Preguntas Frecuentes</a></div>
+
+<main id="top">
+<section class="hero" style="padding-top:0">
+  <div class="wrap"><img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/rv3G4e27lyqoptqQIXZr/media/699e29dc3730800411e305b4.png" alt="Nuevo Plan Telcel Ultra 3: contrata ahora y recibe el 1er mes gratis por $349, 15 gigas y redes sociales ilimitadas"></div>
+</section>
+
+<div class="marquee" aria-hidden="true"><div class="track" id="track"></div></div>
+
+<section id="planes">
+  <div class="wrap">
+    <h2>Planes</h2>
+    <p class="sub">Selecciona tu promoción y el método de tu preferencia para empezar.</p>
+    <div class="pgrid">
+      <div class="pcol"><h3>Plan Telcel Ultra 3</h3><img loading="lazy" src="https://files.leadconnectorhq.com/file/6af492881dee4a7aa10a00c2/promocion-claro-15-gigas-ilimitadas.png" alt="Plan Telcel Ultra 3: 15 gigas por $349 al mes">
+        <a class="pbtn wa" href="https://wa.me/message/XOQGJJXBM4FNM1" target="_blank" rel="noopener">Tramita por WhatsApp</a><a class="pbtn on" href="#tramite" data-plan="Plan Telcel Ultra 3">Trámite en línea</a><a class="pbtn call" href="tel:5579389270">Tramita por llamada</a></div>
+      <div class="pcol"><h3>Plan Telcel Ultra 5</h3><img loading="lazy" src="https://files.leadconnectorhq.com/file/6af49228fbdd54a827be4113/promocion-claro-40-gigas-gratis.png" alt="Plan Telcel Ultra 5: 40 gigas por $549 al mes">
+        <a class="pbtn wa" href="https://wa.me/message/XOQGJJXBM4FNM1" target="_blank" rel="noopener">Tramita por WhatsApp</a><a class="pbtn on" href="#tramite" data-plan="Plan Telcel Ultra 5">Trámite en línea</a><a class="pbtn call" href="tel:5579389270">Tramita por llamada</a></div>
+      <div class="pcol"><h3>Plan Telcel Ultra 9</h3><img loading="lazy" src="https://files.leadconnectorhq.com/file/6af49205ddcd97ce5ad288bf/promocion-claro-100-gigas-ilimitados.png" alt="Plan Telcel Ultra 9: 100 gigas por $949 al mes">
+        <a class="pbtn wa" href="https://wa.me/message/XOQGJJXBM4FNM1" target="_blank" rel="noopener">Tramita por WhatsApp</a><a class="pbtn on" href="#tramite" data-plan="Plan Telcel Ultra 9">Trámite en línea</a><a class="pbtn call" href="tel:5579389270">Tramita por llamada</a></div>
+    </div>
+  </div>
+</section>
+
+<section id="beneficios">
+  <div class="wrap">
+    <h2>Beneficios</h2>
+    <div class="bgrid">
+      <div class="bcard"><h3>La Mayor Cobertura</h3><p>Disfruta la Ultra velocidad 5G con los nuevos planes Telcel Ultra.</p><img class="ico" src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/rv3G4e27lyqoptqQIXZr/media/6928748d3080d3849984551c.png" alt="5G Telcel"><hr><a href="#tramite">Más Información</a></div>
+      <div class="bcard"><h3>Promociones</h3><p>20 GB de almacenamiento en Claro Drive, y Claro Video</p><img class="ico" src="https://files.leadconnectorhq.com/file/69273d8496891518e786c531/logo-claro-video-01.png" alt="Claro video"><hr><a href="#tramite">Más Información</a></div>
+      <div class="bcard"><h3>Beneficios</h3><p>Disfruta de grandes beneficios conservando tu mismo número.</p><img class="ico" src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/rv3G4e27lyqoptqQIXZr/media/69272ce14ee4a3499040151f.svg" alt="Regalo"><hr><a href="#tramite">Más Información</a></div>
+    </div>
+  </div>
+</section>
+
+<section id="tramite">
+  <div class="wrap">
+    <h2>Trámite en Línea</h2>
+    <div class="fcard">
+      <img class="price" loading="lazy" src="https://files.leadconnectorhq.com/file/6af48f9ed3a37f5ae46de2e1/whatsapp-image-2026-11-11-at-9-53-55-am.jpeg" alt="Tabla de precios Planes Telcel Ultra">
+      <form id="pform" novalidate>
+        <h3>Elige tu Plan</h3>
+        <div class="fl"><label>Elige tu Plan Telcel Ultra *</label><select name="plan" id="plan" required><option value="" disabled selected></option><option>Plan Telcel Ultra 3</option><option>Plan Telcel Ultra 4</option><option>Plan Telcel Ultra 5</option><option>Plan Telcel Ultra 7</option><option>Plan Telcel Ultra 9</option><option>Plan Telcel Ultra Ilimitado</option></select><p class="err">Este campo es obligatorio</p></div>
+        <div class="fl"><label class="chk"><input type="checkbox" name="consumo_controlado"> Consumo Controlado</label><p class="help">Consumo controlado actúa como candado que evita cargos excedentes en tus facturas</p></div>
+        <div class="fl"><label>¿Cuál es tu compañía actual? *</label><select name="compania" required><option value="" disabled selected>Tu proveedor actual de telefonía</option><option>Telcel</option><option>No tengo compañía y quiero una línea nueva</option><option>AT&amp;T</option><option>Movistar</option><option>Bait</option><option>Virgin</option><option>Unefon</option><option>Otro</option></select><p class="err">Este campo es obligatorio</p></div>
+        <div class="fl"><label>¿Qué tipo de servicio tienes?</label><select name="tipo_servicio"><option value="" disabled selected>¿Recargas o tienes plan?</option><option>Prepago (Recargas)</option><option>Pospago (Planes)</option></select></div>
+        <div class="fl"><label>NIP de Portabilidad *</label><input type="text" name="nip" inputmode="numeric" maxlength="4" pattern="\d{4}" placeholder="4 dígitos" required><p class="help">Se obtiene llamando al o enviando la palabra "NIP" por SMS al 051 desde el número a portar</p><p class="err">Ingresa 4 dígitos</p></div>
+        <div class="fl"><label>ICCID *</label><input type="text" name="iccid" required><p class="help">Se encuentra en la parte trasera del chip o en la configuración de tu celular.</p><p class="err">Este campo es obligatorio</p></div>
+
+        <h4>Datos Personales</h4>
+        <div class="fl"><label>Nombre Completo *</label><input type="text" name="nombre" autocomplete="name" required><p class="err">Este campo es obligatorio</p></div>
+        <div class="fl"><label>Número de Contacto *</label><input type="tel" name="contacto" inputmode="numeric" pattern="\d{10}" maxlength="10" autocomplete="tel-national" required><p class="err">Ingresa 10 dígitos</p></div>
+        <div class="fl"><label>Correo Electrónico *</label><input type="email" name="email" autocomplete="email" required><p class="err">Ingresa un correo válido</p></div>
+        <div class="fl"><label>Celular a Tramitar *</label><input type="tel" name="celular_tramitar" inputmode="numeric" pattern="\d{10}" maxlength="10" required><p class="err">Ingresa 10 dígitos</p></div>
+
+        <h4>Documentos</h4>
+        <div class="fl"><label>INE por el frente *</label><div class="drop"><input type="file" name="ine_frente" multiple accept=".pdf,.doc,.docx,.xls,.csv,.jpg,.jpeg,.png,.gif" required><b>Haz clic o arrastra tus archivos</b><small>PDF, DOC/DOCX, XLS/CSV, JPG/JPEG, PNG, GIF ( max 3 Files )</small><div class="files"></div></div><p class="err">Sube tu INE (máx. 3 archivos)</p></div>
+        <div class="fl"><label>INE por detrás *</label><div class="drop"><input type="file" name="ine_reverso" multiple accept=".pdf,.doc,.docx,.xls,.csv,.jpg,.jpeg,.png,.gif" required><b>Haz clic o arrastra tus archivos</b><small>PDF, DOC/DOCX, XLS/CSV, JPG/JPEG, PNG, GIF ( max 3 Files )</small><div class="files"></div></div><p class="err">Sube tu INE (máx. 3 archivos)</p></div>
+
+        <h4>Dirección de Entrega</h4>
+        <div class="fl"><label>Código Postal *</label><input type="text" name="cp" inputmode="numeric" pattern="\d{5}" maxlength="5" autocomplete="postal-code" required><p class="err">Ingresa 5 dígitos</p></div>
+        <div class="fl"><label>Estado *</label><select name="estado" id="estado" required><option value="" disabled selected></option></select><p class="err">Este campo es obligatorio</p></div>
+        <div class="fl"><label>Ciudad *</label><input type="text" name="ciudad" required><p class="err">Este campo es obligatorio</p></div>
+        <div class="fl"><label>Municipio *</label><input type="text" name="municipio" required><p class="err">Este campo es obligatorio</p></div>
+        <div class="fl"><label>Colonia *</label><input type="text" name="colonia" required><p class="err">Este campo es obligatorio</p></div>
+        <div class="fl"><label>Calle y Número *</label><input type="text" name="calle" autocomplete="street-address" required><p class="err">Este campo es obligatorio</p></div>
+        <div class="fl"><label>Referencia Domicilio *</label><input type="text" name="referencia_domicilio" required><p class="err">Este campo es obligatorio</p></div>
+
+        <h4>Referencias Personales</h4>
+        <div class="fl"><label>Referencia Personal 1 *</label><div class="row2"><input type="text" name="ref1_nombre" placeholder="Nombre y Apellido" required><input type="tel" name="ref1_cel" placeholder="Celular" inputmode="numeric" maxlength="10" pattern="\d{10}" required></div><p class="help">Puede ser un amigo o familiar</p><p class="err">Completa nombre y celular (10 dígitos)</p></div>
+        <div class="fl"><label>Referencia Personal 2 *</label><div class="row2"><input type="text" name="ref2_nombre" placeholder="Nombre y Apellido" required><input type="tel" name="ref2_cel" placeholder="Celular" inputmode="numeric" maxlength="10" pattern="\d{10}" required></div><p class="help">Puede ser un amigo o familiar</p><p class="err">Completa nombre y celular (10 dígitos)</p></div>
+        <div class="fl"><label>Teléfono de Casa u Oficina *</label><input type="tel" name="tel_casa" inputmode="numeric" maxlength="10" pattern="\d{10}" required><p class="err">Ingresa 10 dígitos</p></div>
+
+        <button class="submit" type="submit">Siguiente</button>
+      </form>
+      <div class="ok" id="ok"><h4>¡Gracias! Recibimos tu solicitud.</h4><p>Un asesor se pondrá en contacto contigo para finalizar tu trámite.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="faqs" id="faq">
+  <div class="wrap">
+    <h2 style="font-weight:700">Preguntas Frecuentes</h2>
+    <div class="faq">
+      <details><summary>1. ¿Qué hace diferente a Planes Ultra?</summary><div class="a">Planes Ultra te da más gigas reales sin complicaciones, con un trámite rápido, claro y sin letras chiquitas, Enfocado en darte libertad digital sin planes confusos ni redes “ilimitadas” que en realidad no lo son.</div></details>
+      <details><summary>2. ¿Cómo se realiza el trámite de contratación?</summary><div class="a">Muy fácil. Puedes hacerlo por WhatsApp o Messenger.<br>Solo te pedimos unos datos básicos y en minutos tienes tu línea activa. Si lo prefieres, puedes completar la primera parte por chat y finalizar con un asesor humano por teléfono.</div></details>
+      <details><summary>3. ¿Los gigas que ofrecen son reales?</summary><div class="a">Sí. Nuestra promesa es simple: gigas reales, velocidad real, sin trucos.<br>No manejamos redes sociales “ilimitadas”, únicamente gigas completos para que uses tus apps como tú quieras.</div></details>
+      <details><summary>4. ¿Cuánto tardan en activar mi línea?</summary><div class="a">El trámite es rápido y sin complicaciones.<br>Una vez que enviamos tu SIM, la activación es prácticamente inmediata cuando la recibes. En la mayoría de los casos, el proceso completo dura menos de 10 minutos por chat.</div></details>
+    </div>
+    <div class="cta"><a href="#tramite">TRAMITAR</a></div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap fg">
+    <div class="brand">
+      <img class="main" src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/rv3G4e27lyqoptqQIXZr/media/6927273c968915d06382a5f5.png" alt="Planes Telcel Ultra / Telcel">
+      <img class="cx" src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/rv3G4e27lyqoptqQIXZr/media/692889b88f8797416f9e3d1e.webp" alt="Celular Express">
+      <p>Celular Express es un distribuidor autorizado Telcel con presencia en toda la República Mexicana.</p>
+      <p>Los contenidos publicados en esta página son de toda responsabilidad de Celular Express Distribuidor Autorizado Telcel y no representan la posición, estrategia y opiniones de Telcel.</p>
+      <img class="da" src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/rv3G4e27lyqoptqQIXZr/media/6928897f362bfe47fab4f943.png" alt="Distribuidor Autorizado Telcel">
+    </div>
+    <div><h4>Info</h4><ul><li><a href="#tramite">Contrata</a></li><li><a href="https://planestelcel.com/avisodeprivacidad" target="_blank" rel="noopener">Aviso de Privacidad</a></li><li><a href="https://planestelcel.com/terminosycondiciones" target="_blank" rel="noopener">Términos y Condiciones</a></li><li><a href="https://planestelcel.com/legalestelcel" target="_blank" rel="noopener">Legales Telcel</a></li></ul></div>
+    <div><h4>Contacto</h4><ul><li><a href="mailto:atencion@planestelcel.com">atencion@planestelcel.com</a></li><li><a href="tel:5626015222">56 2601 5222</a></li><li>D.F. y Área Metropolitana</li></ul></div>
+  </div>
+</footer>
+
+<div class="pop" id="pop" role="dialog" aria-modal="true" aria-label="Agiliza tu trámite por WhatsApp">
+  <div class="pbox">
+    <button class="x" id="popx" aria-label="Cerrar">✕</button>
+    <div class="banner"><h3>Agiliza tu trámite por</h3><span class="pill"><svg viewBox="0 0 32 32"><circle cx="16" cy="16" r="16" fill="#25D366"/><path fill="#fff" d="M23.3 8.7A10.3 10.3 0 0 0 7 21.1L5.6 26.4l5.4-1.4a10.3 10.3 0 0 0 4.9 1.3 10.3 10.3 0 0 0 7.4-17.6zm-7.3 15.8a8.5 8.5 0 0 1-4.4-1.2l-.3-.2-3.2.8.9-3.1-.2-.3a8.6 8.6 0 1 1 7.2 4zm4.7-6.4c-.3-.1-1.5-.8-1.8-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.6.1a7 7 0 0 1-3.5-3c-.3-.5.3-.4.7-1.4.1-.2 0-.3 0-.5l-.8-1.9c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.7.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.6-.3z"/></svg>WhatsApp</span>
+      <div class="phone"><i></i><i></i><i></i><i></i><i></i></div></div>
+    <h4>¡Inicia tu trámite aquí!</h4>
+    <p>80% de los usuarios completa su trámite más rápido</p>
+    <a class="go" href="https://wa.me/message/XOQGJJXBM4FNM1" target="_blank" rel="noopener">☐ Whatsapp</a>
+  </div>
+</div>
+<a class="waf" href="https://wa.me/message/XOQGJJXBM4FNM1" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 32 32"><path fill="#fff" d="M23.3 8.7A10.3 10.3 0 0 0 7 21.1L5.6 26.4l5.4-1.4a10.3 10.3 0 0 0 4.9 1.3 10.3 10.3 0 0 0 7.4-17.6zm-7.3 15.8a8.5 8.5 0 0 1-4.4-1.2l-.3-.2-3.2.8.9-3.1-.2-.3a8.6 8.6 0 1 1 7.2 4zm4.7-6.4c-.3-.1-1.5-.8-1.8-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.6.1a7 7 0 0 1-3.5-3c-.3-.5.3-.4.7-1.4.1-.2 0-.3 0-.5l-.8-1.9c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.7.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.6-.3z"/></svg></a>
+
+<script>
+(() => {
+const $ = (s, r = document) => r.querySelector(s), $$ = (s, r = document) => [...r.querySelectorAll(s)];
+// marquee
+const P = "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://storage.googleapis.com/msgsndr/rv3G4e27lyqoptqQIXZr/media/";
+const L = ["69273a0df4a287182c6960d0.png","69273d8496891518e786c531.png","69273d84fbd3445cda1d42da.png","69273a0d6203af19f035a0d5.png","69273a0d6203affa1235a0d6.png"].map(f => `<img src="${P + f}" alt="">`).join("");
+$("#track").innerHTML = L + L + L + L;
+// states
+["Aguascalientes","Baja California","Baja California Sur","Campeche","Chiapas","Chihuahua","Ciudad de México","Coahuila de Zaragoza","Colima","Durango","Estado de México","Guanajuato","Guerrero","Hidalgo","Jalisco","Michoacán de Ocampo","Morelos","Nayarit","Nuevo León","Oaxaca","Puebla","Querétaro","Quintana Roo","San Luis Potosí","Sinaloa","Sonora","Tabasco","Tamaulipas","Tlaxcala","Veracruz de Ignacio de la Llave","Yucatán","Zacatecas"].forEach(s => $("#estado").insertAdjacentHTML("beforeend", `<option>${s}</option>`));
+// popup
+const pop = $("#pop");
+setTimeout(() => pop.classList.add("open"), 800);
+$("#popx").onclick = () => pop.classList.remove("open");
+pop.addEventListener("click", e => { if (e.target === pop) pop.classList.remove("open"); });
+document.addEventListener("keydown", e => { if (e.key === "Escape") pop.classList.remove("open"); });
+// nav
+$("#burger").onclick = () => $("#mnav").classList.toggle("open");
+$$("#mnav a").forEach(a => a.onclick = () => $("#mnav").classList.remove("open"));
+// preselect plan
+$$("[data-plan]").forEach(a => a.addEventListener("click", () => { $("#plan").value = a.dataset.plan; }));
+// files
+$$(".drop input").forEach(i => i.addEventListener("change", () => {
+  if (i.files.length > 3) { alert("Máximo 3 archivos"); i.value = ""; }
+  i.parentElement.querySelector(".files").textContent = [...i.files].map(f => f.name).join(", ");
+}));
+// submit — solo front-end. Conecta submitPlanesLead() al backend / GoHighLevel del cliente.
+async function submitPlanesLead(fd) {
+  // TODO: ej. await fetch("https://API_DEL_CLIENTE/leads", { method: "POST", body: fd });
+  console.info("submitPlanesLead", Object.fromEntries([...fd.entries()].map(([k, v]) => [k, v instanceof File ? v.name : v])));
+}
+window.submitPlanesLead = submitPlanesLead;
+$("#pform").addEventListener("submit", async e => {
+  e.preventDefault();
+  let first = null;
+  $$(".fl", e.target).forEach(fl => {
+    const bad = $$("input,select", fl).some(i => !i.checkValidity());
+    fl.classList.toggle("bad", bad);
+    if (bad && !first) first = fl;
+  });
+  if (first) { first.scrollIntoView({ behavior: "smooth", block: "center" }); return; }
+  await submitPlanesLead(new FormData(e.target));
+  e.target.style.display = "none"; $("#ok").style.display = "block";
+});
+})();
+</script>
+</body>
+</html>
